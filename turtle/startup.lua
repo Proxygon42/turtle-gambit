@@ -595,7 +595,7 @@ end
 
 function websocketLoop()
 	
-	local ws, err = http.websocket("ws://localhost:5757")
+	local ws, err = http.websocket("https://2c44c8bc3928.ngrok.io")
  
 	if err then
 		print(err)

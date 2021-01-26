@@ -595,7 +595,7 @@ end
 
 function websocketLoop()
 	
-	local ws, err = http.websocket("ws://ottomated.net:43509")
+	local ws, err = http.websocket("ws://localhost:5757")
  
 	if err then
 		print(err)
